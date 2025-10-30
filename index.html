@@ -56,11 +56,8 @@
           </button>
         </div>
       </div>
-      <div
-        class="pointer-events-none absolute inset-x-0 top-0 h-28 bg-linear-to-b from-gray-900/80 to-transparent"
-      ></div>
     </header>
-    <main class="relative h-screen">
+    <main class="relative h-[70vh]">
       <video
         autoplay
         muted
@@ -81,15 +78,17 @@
       <div class="absolute left-0 right-0 bottom-0 h-20 bg-black/75 z-15"></div>
 
       <div
-        class="relative z-30 max-w-[1200px] mx-auto px-6 h-full flex items-center"
+        class="relative z-30 max-w-[1200px] mx-auto px-6 h-full flex items-start pt-28"
       >
         <div
-          class="max-w-lg bg-[#0b63a8] text-white rounded-lg p-10 shadow-2xl ring-1 ring-black/10"
+          class="max-w-lg bg-[#0b63a8] text-white rounded-lg p-10 shadow-2xl ring-1 ring-black/10 mt-28 h-60"
         >
-          <h1 class="text-3xl sm:text-4xl font-extrabold leading-tight mb-2">
+          <h1
+            class="text-3xl sm:text-4xl font-extrabold leading-tight text-center mt-3"
+          >
             Keeping AI on the ball
           </h1>
-          <p class="text-sm sm:text-base md:text-lg text-white/90">
+          <p class="text-sm sm:text-base md:text-lg text-white/90 text-center">
             Discover how AI is elevating the fan experience for millions
             watching the Ryder Cup
           </p>
@@ -98,7 +97,7 @@
 
       <button
         aria-hidden="true"
-        class="absolute right-24 bottom-28 z-30 w-12 h-12 bg-white/95 rounded-full flex items-center justify-center shadow-md"
+        class="absolute right-24 bottom-10 z-30 w-12 h-12 bg-white/95 rounded-full flex items-center justify-center shadow-md"
       >
         <svg
           class="w-5 h-5 text-gray-800"
@@ -110,6 +109,27 @@
           <rect x="14" y="5" width="3" height="14" rx="1" fill="currentColor" />
         </svg>
       </button>
+      <h1 class="font-medium text-2xl mt-20 ml-12 mb-1.5">Highlights</h1>
+      <div class="flex gap-2">
+        <div>
+          <img src="images/lady-with-glasses.png" alt="" />
+          <h2 class="font-medium text-2xl ml-1.5">
+            From pilot program to power users
+          </h2>
+        </div>
+        <div>
+          <img
+            src="images/CG-banner_Aiman-Keshav_1000-x-625.jpeg"
+            alt=""
+            class="h-62"
+          />
+          <h2 class="font-medium text-2xl ml-1.5">Capgemini acquires WNS</h2>
+        </div>
+        <div>
+          <img src="images/PR-financial-image.jpeg" alt="" class="h-[275px]" />
+          <h2 class="font-medium text-2xl ml-1.5">Q3 2025 Performance</h2>
+        </div>
+      </div>
     </main>
   </body>
 </html>
