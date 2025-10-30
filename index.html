@@ -3,20 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project Coming Soon</title>
+    <title>Capgemini- Make it real.</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
-    <div
-      class="bg-white border-2 border-dashed border-blue-500 rounded-lg shadow-xl p-8 max-w-sm w-full text-center"
-    >
-      <h1 class="text-3xl font-bold text-gray-800 mb-4">
-        Project is currently Under Development
-      </h1>
+  <body class="antialiased bg-white text-gray-900">
+    <header class="fixed inset-x-0 top-0 z-40 bg-white">
+      <div
+        class="max-w-[1200px] mx-auto px-6 py-4 flex items-center justify-between"
+      >
+        <div class="flex items-center space-x-6">
+          <img src="images/brand.svg" alt="brand logo" class="h-8" />
+        </div>
 
-      <p class="text-xl font-semibold text-blue-600 animate-pulse">
-        Coming Soon...
-      </p>
-    </div>
+        <nav class="hidden md:flex items-center space-x-8 text-black/90">
+          <a class="hover:border-b-2 border-blue-600 border-solid p-2" href="#"
+            >Insights</a
+          >
+          <a class="hover:border-b-2 border-blue-600 border-solid p-2" href="#"
+            >Industries</a
+          >
+          <a class="hover:border-b-2 border-blue-600 border-solid p-2" href="#"
+            >Services</a
+          >
+          <a class="hover:border-b-2 border-blue-600 border-solid p-2" href="#"
+            >Careers</a
+          >
+          <a class="hover:border-b-2 border-blue-600 border-solid p-2" href="#"
+            >News</a
+          >
+          <a class="hover:border-b-2 border-blue-600 border-solid p-2" href="#"
+            >About us</a
+          >
+        </nav>
+
+        <div class="flex items-center space-x-4">
+          <button class="text-white/90 p-2 rounded-full hover:bg-white/10">
+            🔍
+          </button>
+          <button class="text-white/90 p-2 rounded-full hover:bg-white/10">
+            🌐
+          </button>
+        </div>
+      </div>
+      <div
+        class="pointer-events-none absolute inset-x-0 top-0 h-28 bg-linear-to-b from-gray-900/80 to-transparent"
+      ></div>
+    </header>
+    <main class="relative h-screen">
+      <video
+        autoplay
+        muted
+        loop
+        playsinline
+        class="absolute inset-0 w-full h-full object-cover z-10"
+      >
+        <source
+          src="https://www.capgemini.com/wp-content/uploads/2025/09/CAPGEMINI_MAKEITREAL_5s_VI_SKYSPORTS-final_v1.mp4"
+          type="video/mp4"
+        />
+      </video>
+
+      <div
+        class="absolute inset-0 z-20 pointer-events-none bg-linear-to-b from-black/70 via-black/30 to-transparent"
+      ></div>
+
+      <div class="absolute left-0 right-0 bottom-0 h-20 bg-black/75 z-15"></div>
+
+      <div
+        class="relative z-30 max-w-[1200px] mx-auto px-6 h-full flex items-center"
+      >
+        <div
+          class="max-w-lg bg-[#0b63a8] text-white rounded-lg p-10 shadow-2xl ring-1 ring-black/10"
+        >
+          <h1 class="text-3xl sm:text-4xl font-extrabold leading-tight mb-2">
+            Keeping AI on the ball
+          </h1>
+          <p class="text-sm sm:text-base md:text-lg text-white/90">
+            Discover how AI is elevating the fan experience for millions
+            watching the Ryder Cup
+          </p>
+        </div>
+      </div>
+
+      <button
+        aria-hidden="true"
+        class="absolute right-24 bottom-28 z-30 w-12 h-12 bg-white/95 rounded-full flex items-center justify-center shadow-md"
+      >
+        <svg
+          class="w-5 h-5 text-gray-800"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect x="6" y="5" width="3" height="14" rx="1" fill="currentColor" />
+          <rect x="14" y="5" width="3" height="14" rx="1" fill="currentColor" />
+        </svg>
+      </button>
+    </main>
   </body>
 </html>
