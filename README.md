@@ -2,7 +2,7 @@
 
 **Project:** Capgemini Website Clone — The-Gym Rwanda Training Project
 
-**Author:** Byukusenge Kubana Baraka Pascal (RP Kigali College / The-Gym Rwanda)
+**Author:** Baraka Pascal Byukusenge Kubana(RP Kigali College / The-Gym Rwanda)
 
 ---
 
@@ -39,5 +39,5 @@ This project is a **visual clone** of the official Capgemini website. The main g
 
 ---
 
-**Author:** Byukusenge Kubana Baraka Pascal
+**Author:**Baraka Pascal Byukusenge Kubana
 **Institution:** The-Gym Rwanda / RP Kigali College
